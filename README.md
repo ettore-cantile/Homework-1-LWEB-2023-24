@@ -1,8 +1,4 @@
-# Homework 1
-  Primo Homework del Corso Linguaggi per il Web
-# Tematiche
-  HTML, CSS
-# Studenti
-  Ettore Cantile, Leonardo Chiarparin
+# Repository LWEB-2023/24
+  Cartella contenente gli Homework inerenti al Corso di Linguaggi per il Web
 # Facoltà
   Ingegneria dell'Informazione, Informatica e Statistica (sede di Latina)
