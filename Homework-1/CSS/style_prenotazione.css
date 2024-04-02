@@ -1,0 +1,356 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Poppins,sans-serif;
+}
+
+h2, h3 {
+	color: green;
+}
+
+.barra_navigazione{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(246,246,246);
+	height: 6.25em;
+	width: 100%;
+	border-bottom: 1px solid #696969;
+	overflow: hidden;
+	position: fixed;
+	top: 0%;
+	z-index: 9;
+}
+
+.container_logo {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	
+	opacity: 0;
+	animation: scorrimentoDx 1s ease forwards;
+	animation-delay: .30s;
+}
+
+.logo{
+	height: 100%;
+}
+
+.container_menu {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+	opacity: 0;
+	animation: scorrimentoBasso 1s ease forwards;
+	animation-delay: .30s;
+}
+
+.voce_menu {
+	margin-right: 2.5%;
+	padding-right: 2.5%;
+	border-right: 1px solid gray;
+}
+
+.voce_menu:first-child{
+	margin-left: 2.5%;
+	padding-left: 2.5%;
+	border-left: 1px solid gray;
+}
+
+.voce_menu a:link, .voce_menu a:visited{
+	font-size: 1.15em;
+	color: gray;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+.voce_menu a:hover{
+	color: black;
+	border-bottom-color: #2E8B57;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.container_corpo {
+	width: 100%;
+	height: 85%;
+	position: absolute;
+}
+
+.spazio_link {
+	height: 6.25em;
+}
+
+.container_principale {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.saluti {
+	padding-bottom: 1%;
+	color: green;
+	opacity: 0;
+	animation: scorrimentoDx 2.5s ease forwards;
+	animation-delay: .30s;
+}
+
+.container_principale p {
+	text-align: justify;
+	line-height: 1.5;
+	padding-bottom: 2.5%;
+}
+
+.container_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 1%;
+	border-width: 1px;
+	border-color: #696969;
+	border-style: solid;
+	box-shadow: 0 0.5em 1em gray;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: 2.5%;
+}
+
+.intestazione {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 2.5%;
+}
+
+.container_elenco_campi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	border-color: #696969;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 0.35em;
+	border-top-right-radius: 0.35em;
+	border-bottom-left-radius: 0.35em;
+	border-bottom-right-radius: 0.35em;
+}
+
+.intestazione_elenco_campi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 5em;
+	border-color: #696969;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.intestazione_elenco_campi h3 {
+	width: 100%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.corpo_elenco_campi {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 2.5%;
+}
+
+.campo, .campo_radio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #696969;
+}
+
+.campo {
+	margin-top: 2.5%;
+}
+
+.contenuto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: 1.25%;
+	margin-right: 1.25%;
+	margin-bottom: 2.5%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #696969;
+}
+
+.titolo {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	margin-left: 2.5%;
+	margin-top: -1%;
+}
+
+.titolo p {
+	background-color: white;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.voci {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: 2.5%;
+}
+
+.calcio, .basket, .tennis {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	margin-top: -1.5%;
+}
+
+.calcio p input, .basket p input, .tennis p input{
+	accent-color: green;
+	width: 1.25em;
+	height: 1.25em;
+}
+
+.nome_campo {
+	width: 35%;
+	font-weight: bold;
+	font-size: 1em;
+	margin-left: 1.5%;
+	padding-bottom: 0%;
+}
+
+.dettagli_campo {
+	width: 65%;
+	margin-right: 1.5%;
+}
+
+.dettagli_campo input[type='text'] {
+	font-size: 1em;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding-bottom: 1.5%;
+	background: transparent;
+	border-bottom: 1px solid #808080;
+}
+
+.container_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 2.5%;
+}
+
+.confirm {
+	width: 9.35em;
+	font-size: 1em;
+	height: 3.15em;
+	border-radius: 1.5em;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: green;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #00FF00;
+	transition: .5s;
+}
+
+.confirm:hover{
+	background-color: #00FF00;
+}
+
+.blank_space {
+	height: 6.5em;
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: right;
+	align-items: center;
+	height: 3.25em;
+	overflow: hidden;
+	z-index: 12;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0.5em 0em 1em gray;
+	background-color: rgb(246,246,246);
+	border-top: 1px solid #696969;
+}
+
+.footer p {
+	font-weight: bold;
+	margin: 2.5%; 
+}
+
+@keyframes scorrimentoDx {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes scorrimentoBasso {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
