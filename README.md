@@ -1,4 +1,4 @@
-# Repository Homework 1 LWEB 2023/24
+# Repository Homework-1 LWEB 2023/24
   Cartella contenente il primo Homework inerente al Corso di Linguaggi per il Web
 # Argomenti
   HTML, CSS
