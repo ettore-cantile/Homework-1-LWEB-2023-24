@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>CSS: Campo Sportivo dei Sogni</title>
+	<link rel="icon" href="Immagini/Logo.png" />
+	<link rel="stylesheet" href="CSS/style_prenotazione.css" type="text/css" />
+</head>
+<body>
+	<div class="barra_navigazione">
+		<div class="container_logo">
+			<img class="logo" src="Immagini/Barra.png" alt="Logo non Disponibile..." />
+		</div>
+		<div class="container_menu">
+			<div class="menu">
+				<span class="voce_menu">
+					<a href="prenotazione.xhtml.html" title="Funzione in fase di sviluppo...">About</a>
+				</span>
+				
+				<span class="voce_menu">
+					<a href="prenotazione.xhtml.html" title="Funzione in fase di sviluppo...">Account</a>
+				</span>
+				
+				<span class="voce_menu">
+					<a href="prenotazione.xhtml.html" title="Funzione in fase di sviluppo...">Impostazioni</a>
+				</span>
+				
+				<span class="voce_menu">
+					<a href="pagina_riservata.xhtml.html" title="Indietro">Indietro</a>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="container_corpo">
+		<div class="container_principale">
+			<p class="spazio_link"></p>
+		
+			<h1 class="saluti">Inserimento della Prenotazione!</h1>
+			
+			<form class="container_form" action="pagina_riservata.xhtml.html">
+				<div class="form">
+					<div class="intestazione">
+						<h2>
+							Compilare i seguenti campi con le informazioni richieste
+						</h2>
+					</div>
+					<div class="container_elenco_campi">
+						<div class="intestazione_elenco_campi">
+							<h3>Dettagli della Prenotazione</h3>
+						</div>
+						<div class="corpo_elenco_campi">
+							<div class="campo_radio">
+								<div class="contenuto">
+									<div class="item">
+										<div class="titolo">
+											<p>Sport</p>
+										</div>
+										<div class="voci">
+											<div class="calcio">
+												<p style="padding-right: 0.5%;">
+													<input type="radio" name="sport" /> 
+												</p>
+												<p style="margin-top: -0.5%;">
+													Calcio
+												</p>
+											</div>
+											<div class="basket">
+												<p style="padding-right: 0.5%;">
+													<input type="radio" name="sport" /> 
+												</p>
+												<p style="margin-top: -0.5%;">
+													Basket
+												</p>
+											</div>
+											<div class="tennis">
+												<p style="padding-right: 0.5%;">
+													<input type="radio" name="sport" /> 
+												</p>
+												<p style="margin-top: -0.5%;">
+													Tennis
+												</p>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="campo">
+								<div class="contenuto" style="flex-direction: column;" >
+									<div class="item" style="flex-direction:row; border:none;">
+										<p class="nome_campo">
+											Campo da Gioco preferito
+										</p>
+										<p class="dettagli_campo">
+											<input type="text" value="Es.: Maradona (per il Calcio)" />
+										</p>	
+									</div>
+									<div class="item" style="flex-direction:row; border:none;">
+										<p class="nome_campo">
+											Giorno (gg/mm/anno)
+										</p>
+										<p class="dettagli_campo">
+											<input type="text" value="Es.: 06-06-1990" />
+										</p>	
+									</div>
+									<div class="item" style="flex-direction:row; border:none;">
+										<p class="nome_campo">
+											Fascia Oraria (..:..-..:..)
+										</p>
+										<p class="dettagli_campo">
+											<input type="text" value="Es.: 16:00-17:00" />
+										</p>	
+									</div>
+								</div>
+							</div>
+							<div class="container_button">
+								<button type="submit" class="confirm">Conferma</button>
+							</div>  
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="blank_space"></div>
+		</div>
+		<div class="footer">
+			<p>
+				Ettore Cantile e Leonardo Chiarparin, Linguaggi per il Web  a.a. 2023-2024
+			</p>
+		</div>
+	</div>
+</body>
+</html>
