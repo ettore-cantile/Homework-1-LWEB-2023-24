@@ -1,3 +1,9 @@
+***ho concentrato i commenti nell'altro repository.***
+***Pero` misembra che mi abbiate aggiunto con un ruolo che non consente di definire degli issue.^^^
+***Non sono almeno collaboratore?***
+
+
+
 CONTESTO D'INTERESSE:
 --------------------
 IN RIFERIMENTO ALLA CONSEGNA PROPOSTA, L'ARGOMENTO CHE REPUTIAMO PIÙ ADATTO È LEGATO ALLA GESTIONE DEL LATO PASSIVO DI UN SITO WEB INERENTE AD UN IPOTETICO CENTRO 
